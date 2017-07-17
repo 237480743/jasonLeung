@@ -1,0 +1,30 @@
+.cwj-category-box{
+    margin-top: 60px;
+    margin-bottom:60px;
+}
+.cwj-intro-img{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:60px;
+}
+.cwj-category-box p{
+    line-height: 25px;
+    text-align: center;
+    font-size:14px;
+    padding-bottom:28px;
+}
+.cwj-category-box .p1{
+    letter-spacing: 2px;
+}
+.cwj-category-box .p2{
+    word-spacing:2px;
+}
+.cwj-catgory-img{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.cwj-catgory-img img{
+    width:100%;
+    height:auto;
+}

@@ -1,0 +1,123 @@
+.cwj-snav ul li a{
+    /*display:block;*/
+    float:left;
+    padding-left:26px;
+    /*padding-right:20px;*/
+    background:url(../images/lbw/lbw-category1.png) no-repeat left;
+    color:#333;
+    font-size:16px;
+    font-weight:600;
+}
+.cwj-snav ul li a:last-child{
+    background: url(../images/lbw/lbw-category2.png) no-repeat left !important;
+}
+.cwj-sbanner{
+    height:130px;
+    background:url(../images/lbw/lbw-category3.png) no-repeat center ;
+    background-size: contain;
+    margin-top: 24px;
+}
+
+/*内容*/
+section{
+    width: 1200px;height: auto;
+    margin: 0 auto;
+    display: flex;
+}
+.lbw-nav{
+    margin-top: 130px;
+}
+.lbw-nav>ul>li{
+    width: 130px;
+    height: 20px;
+    font-size: 18px;
+    line-height: 16px;
+    font-family:"楷体";
+    margin-top: 10px;
+    cursor: pointer;
+}
+.lbw-content{
+    width: 947px;
+}
+.lbw-c-title{
+    padding-top: 1px;
+    margin-bottom: 50px;
+}
+.lbw-c-title>img{
+    display: block;
+    margin: 0 auto;
+}
+.lbw-c-c{
+    display: flex;
+    margin-bottom: 120px;
+}
+.lbw-c-c-l{
+    width: 537px;
+    height: 590px;
+    margin-right: 5px;
+    overflow: hidden;
+}
+.lbw-c-c-l>img{
+   width: 100%;
+}
+.lbw-c-c-r{
+
+    width: 400px;
+}
+.lbw-c-c-r-c{
+overflow: hidden;
+}
+.lbw-c-c-r-c1{
+    width: 195px;height: 195px;
+    float: left;margin-bottom: 5px;
+    margin-right: 5px;
+    overflow: hidden;
+}
+.lbw-c-c-r-c2{
+    width: 195px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    float: left;
+
+}
+.lbw-c-c-r-c1>img{
+    width: 195px;
+}
+.lbw-c-c-r-c2>img{
+    margin-left: 60px;
+}
+.lbw-c-c-r-f{
+    padding-left: 14px;
+
+}
+.lbw-c-c-r-f-t{
+    font-size: 18px;
+    color: #1b1b1b;
+
+}
+.lbw-c-c-r-f1{
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.lbw-c-c-r-f-t1{
+    font-size: 18px;
+    color: #1b1b1b;
+    text-align: right;
+}
+.lbw-c-c-r-f-t1>span{
+    font-size: 14px;
+    color: #555;
+}
+.lbw-c-c-r-f-t>span{
+    font-size: 14px;
+    color: #555;
+}
+.lbw-c-c-r-f-f{
+    font-size: 14px;
+    color: #555;
+    margin-top: 64px;
+}
+.lbw-c-c-r-f-f>span{
+    color: #ff1212;
+
+}

@@ -1,0 +1,31 @@
+.cwj-news{
+    margin-top:60px;
+}
+.cwj-new-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom:86px;
+}
+.cwj-news-content img{
+    width:100%;
+    height:auto;
+}
+.news-text ol{
+    padding-left:10px;
+    padding-bottom:60px;
+    font-size:14px;
+}
+.news-text ol li{
+    padding:10px 0 10px 5px;
+    line-height:20px;
+}
+.news-text{
+    padding-top:50px;
+    padding-bottom:60px;
+}
+.news-text p{
+    padding-bottom:30px;
+    line-height:25px;
+}

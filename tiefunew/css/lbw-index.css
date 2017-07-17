@@ -1,0 +1,121 @@
+html,body{
+    padding: 0;margin: 0;
+}
+/*头部*/
+header .cwj-logo a{
+    display:block;
+    height:63px;
+    width:auto;
+    background:url(../images/lbw/LOGO.png) no-repeat center;
+    background-size:contain;
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}
+.lbw-header{
+    background-color: #d5c9bd;
+
+}
+.cwj-logo{
+    padding: 10px 0;
+}
+
+.lbw-wheel{
+    width: 100%;height: 550px;
+    background: #F4F5F4;
+}
+.ly-lunbo{
+    width:100%;height: 460px;
+    position: relative;
+}
+.ly-lunbo #ly-banner{
+    position: absolute;
+    top: 0;left:0;
+    display: block;
+    width:100%;height: 460px;
+    transition: all 0.3s;
+    opacity: 1;
+    z-index: 1;
+}
+.ly-banner-kuang{
+    width: 55px;height: 10px;
+    position: absolute;
+    top:436px;left: 635px;
+    display: flex;z-index: 555;
+    justify-content: space-around;
+
+}
+.ly-dian1{
+    width: 10px;height: 10px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.ly-jt-left222{
+    width: 19px;height: 52px;background: url(../images/lbw/banner-jt.png) no-repeat -3px -6px;position: absolute;top: 195px;left: 70px;z-index: 99;cursor:pointer;
+}
+.ly-jt-right222{width: 19px;height: 52px;background: url(../images/lbw/banner-jt.png) no-repeat -60px -6px;position: absolute;top: 195px;right: 70px;z-index: 99;cursor:pointer}
+
+
+
+/*内容*/
+.lbw-section{
+    width: 100%;height: auto;
+    background-color: #d5c9bd;
+}
+.lbw-section-h{
+    width: 100%;height: 600px;
+    background: url("../images/lbw/lbw-index1.png") no-repeat;
+    background-size: cover;
+
+}
+.lbw-section-h>img{
+    width: 100%;
+}
+.lbw-section-t1{
+    width: 385px;height: 88px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.lbw-section-c1{
+    width: 1200px;height: 548px;
+    margin: 0 auto;margin-top: 60px;
+    box-shadow: 0 0 40px 0 #202020;
+}
+.lbw-section-f1{
+    width: 540px;height: 20px;
+    font-size: 16px;color: #4a282b;
+    text-align: center;
+    text-decoration: underline;
+    border-left:6px solid #f34947;
+    margin: 0 auto;margin-top: 60px;
+}
+.lbw-section-f2{
+    width: 592px;height: 20px;
+    font-size: 16px;color: #4a282b;
+    text-align: center;
+    text-decoration: underline;
+    margin: 0 auto;margin-top: 20px;
+}
+.lbw-section-c2{
+    width: 100%;height: 600px;
+    margin: 0 auto;margin-top: 85px;
+    background:url("../images/lbw/lbw-index5.png") no-repeat;
+    background-size: cover;
+}
+.lbw-section-c2>img{
+    width: 100%;
+}
+.lbw-section-c3{
+    width: 1000px;height: 445px;
+    margin: 0 auto;margin-top: 85px;
+    display: flex;
+}
+.lbw-section-c3>a{
+    margin: 0 2px;
+
+}
+/*底部*/
+.lbw-footer{
+    background-color: #d5c9bd;
+}
+

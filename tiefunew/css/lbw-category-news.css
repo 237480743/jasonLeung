@@ -1,0 +1,250 @@
+.lbw-section{
+    width: 1080px;
+    margin: 0 auto;
+}
+.lbw-title{
+margin-top: 100px;
+margin-bottom: 140px;
+}
+.lbw-title>img{
+    margin: 0 auto;
+    display: block;
+}
+.gs-right{
+    width: 100%;
+   float: none;
+}
+.gs-right>a{
+    height: 217px;
+    width:auto;
+    padding: 27px 45px;
+
+}
+.gs-imgbox{
+    float:left;
+    width:auto;height:164px;
+}
+.gs-imgbox>img{
+    display:block;
+    width:auto;height:164px;
+}
+.gs-fontbox{
+    margin-left: 40px;
+}
+.gs-ftop{
+    margin-bottom: 5px;
+    padding-bottom:0;
+}
+.gs-titbox>p{
+    font-size: 18px!important;
+    font-weight: bold;
+    line-height:24px;
+}
+.gs-titbox>span{
+    font-size: 16px!important;
+    color: #1f1f1f!important;
+    line-height: 40px!important;
+}
+.gs-ftop {
+    border-bottom: 1px solid #d6d6d6;
+}
+.gs-con{
+
+    color:#d6d6d6;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    display:-webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical;
+
+}
+.gs-dshow1{
+    width:100px;height:28px;
+    line-height:28px;
+    font-size:14px;
+    color:#462327;
+    float:right;
+    cursor:pointer;
+    margin-top: 35px;
+    font-family: 'iconfont';
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 291144 */
+    src: url('http://at.alicdn.com/t/font_1w6o1yrxjzg58kt9.eot');
+    src: url('http://at.alicdn.com/t/font_1w6o1yrxjzg58kt9.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_1w6o1yrxjzg58kt9.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_1w6o1yrxjzg58kt9.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_1w6o1yrxjzg58kt9.svg#iconfont') format('svg');
+}
+/*翻页导航*/
+*{
+    box-sizing: border-box;
+}
+.fanye-k{
+    width: 100%;
+    background: #fff;
+    box-sizing: border-box;
+
+}
+.fanye-z-k{
+    width: 750px;height: 70px;
+    margin: 0 auto;
+    /*float: left;*/
+}
+.fanye-left{
+    width: 460px;height: 70px;
+    margin-left: 30px;float: left;
+    display: flex;
+    justify-content:space-between;
+}
+.jiantou-left{
+    width: 58px;height: 30px;
+    border: 1px solid #999999;
+    border-radius: 30px;margin-top: 20px;
+    padding-left: 2px;
+
+    padding-top: 1px;
+
+}
+.jiantou-left2{
+    width:52px;height: 26px;
+    border: 1px solid #333333;
+    border-radius:20px;
+    /*margin-top: 0.2rem;*/
+    /*position: absolute;*/
+    /*top:-0.18rem;*/
+    /*left:0.03rem;*/
+    background: url("../images/lbw/jt-left.png") no-repeat 10px 5px;
+    background-size: 29px 16px;
+}
+.jiantou-left3{
+    width: 32px;height: 32px;
+    border: 1px solid #999999;
+    border-radius: 50%;margin-top: 20px;
+    /*position: relative;*/
+    padding:2px;
+}
+.jiantou-left4{
+    width: 26px;height: 26px;
+    border: 1px solid #333333;
+    border-radius: 50%;
+    /*margin-top: 0.2px;*/
+    /*position: absolute;*/
+    /*top:-0.18px;*/
+    /*left:0.02px;*/
+    color: #333333;font-size: 10px;
+    line-height: 26px;text-align: center;
+    font-weight: bold;
+}
+.jiantou-left5{
+    width: 32px;height: 32px;
+    background: #01b5ff;
+    border-radius: 50%;margin-top: 20px;
+    padding: 3px;
+}
+.jiantou-left6{
+    width: 26px;height: 26px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+
+    color: #fff;font-size: 1px;
+    line-height: 24px;text-align: center;
+    font-weight: bold;
+}
+.fanye-left>li:nth-child(7){
+    width: 35px;height: 70px;
+    float: left;font-size: 12px;
+    line-height: 70px;text-align: center;
+}
+.jiantou-left7{
+    width: 50px;height: 24px;
+    border: 1px solid #333333;
+    border-radius: 20px;margin-top: 20px;
+
+    background: url("../images/lbw/jt-right.png") no-repeat 10px 5px;
+    background-size: 29px 16px;
+}
+.jiantou-left8{
+    width:52px;height: 26px;
+    border: 1px solid #333333;
+    border-radius:20px;
+    /*margin-top: 0.2rem;*/
+    /*position: absolute;*/
+    /*top:-0.18rem;*/
+    /*left:0.03rem;*/
+    background: url("../images/lbw/jt-right.png") no-repeat 10px 5px;
+    background-size: 29px 16px;
+}
+.fanye-right{
+    width: 210px;height: 70px;
+    margin-left: 23px;float: left;
+    display: flex;
+    justify-content: space-between;
+}
+.right-zi{
+    width: 200px;height: 70px;
+    font-size: 14px;line-height: 70px;
+    text-align: center;
+}
+.right-zi input{
+    width: 58px;height: 31px;
+    border-radius: 15px;
+    border: 1px solid #e5e5e5;
+    outline:1px solid #e5e5e5;
+}
+.right-tu{
+    width: 32px;height: 70px;
+   float: left;
+}
+.jiantou-left9{
+    width: 26px;height: 26px;
+    border: 1px solid #333333;
+    border-radius: 50%;
+    color: #333333;font-size: 10px;
+    line-height: 26px;text-align: center;
+    font-weight: bold;
+    background:  url("../images/lbw/go.png") no-repeat;
+    background-size: contain;
+}
+.lis{
+    padding-top: 20px;
+}
+.section-c{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+.section-c-c{
+    width: 303px;
+}
+.section-c-c-f{
+    font-size:18px;
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 17px;
+}
+.line{
+    width: 50px;
+    height: 1px;
+    background-color: #4dc3ff;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+.section-c-c-f2{
+    font-size:14px;
+    text-align: center;
+}
+.section-c-c-m{
+    width: 303px;
+    height: 367px;
+    overflow: hidden;
+}
+.section-c-c-m{
+transition: 0.5s all;
+}
+.section-c-c-m:hover{
+    box-shadow: 0 0 25px 10px #979797;
+}
+.cwj-sbanner{
+    background: url('../images/lbw/lbw-news3.png');
+}

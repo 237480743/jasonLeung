@@ -1,0 +1,208 @@
+/*公共样式开始*/
+*{
+    margin:0;
+    padding:0;
+}
+ul li{
+    list-style: none;
+}
+body{
+    font-family:微软雅黑;
+    font-size:14px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    border:0;
+}
+.commonWidth{
+    width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.clearfix:after{
+    display:block;
+    content:'';
+    clear:both;
+}
+
+/*公共样式结束*/
+
+/*头部开始*/
+
+header .cwj-logo a{
+    display:block;
+    height:63px;
+    width:auto;
+    background:url(../images/cwj/cwj-logo.png) no-repeat center;
+    background-size:contain;
+    margin:10px 0;
+}
+.cwj-nav{
+    display:flex;
+    justify-content:center;
+    /*align-items:center;*/
+    align-content:center;
+    width:100%;
+    background:#462327;
+}
+.cwj-nav ul{
+
+
+}
+.cwj-nav ul li{
+    float:left;
+    margin:0 40px;
+    line-height: 50px;
+    position:relative;
+}
+.cwj-nav ul li a{
+    line-height:50px;
+    color:#ffa265;
+    font-size:16px;
+}
+.cwj-nav ul li a:hover{
+    color:#fff;
+}
+.cwj-active::before{
+    display:block;
+    content:'';
+    width:6px;
+    height:6px;
+    background:#ffa265;
+    position: absolute;
+    border-radius: 50%;
+    top:23px;
+    left:-10px;
+}
+.cwj-sbanner{
+    height:130px;
+    background:url(../images/cwj/cwj-column.png) no-repeat center ;
+    background-size: contain;
+    margin-top: 24px;
+}
+.cwj-snav ul li{
+    line-height: 120px;
+}
+.cwj-snav ul li a{
+    /*display:block;*/
+    float:left;
+    padding-left:26px;
+    /*padding-right:20px;*/
+    background:url(../images/cwj/cwj-snav.png) no-repeat left;
+    color:#333;
+    font-size:16px;
+    font-weight:600;
+}
+.cwj-snav ul li a:last-child{
+    background: url(../images/cwj/cwj-anav.png) no-repeat left !important;
+}
+/*.cw-snav ul li a.cwj-anav{
+    background: url(../images/cwj/cwj-anav.png) no-repeat left !important;
+}*/
+.cwj-snav ul li span{
+    display:block;
+    float:left;
+    font-size:14px;
+    margin:0 10px;
+ }
+.cwj-banner a{
+    display:block;
+    width:100%;
+    height:auto;
+    padding:0;
+    margin:0;
+}
+.cwj-banner a img{
+    width:100%;
+    height:auto;
+}
+
+/*头部结束*/
+
+/*尾部开始*/
+.cwj-footer-logo{
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    margin-bottom:40px;
+}
+.cwj-footer-box{
+    position:relative;
+    width:100%;
+    padding-top:108px;
+    background:url(../images/cwj/cwj-footer.png) no-repeat center;
+    background-size:100% 100%;
+}
+.cwj-footer-box .cwj-toTop{
+    width:70px;
+    height:70px;
+    position: absolute;
+    left:50%;
+    top:10px;
+    margin-left:-35px;
+    background-color: rgba(216,216,216,0.7);
+    border-radius:50%;
+    cursor:pointer;
+}
+.cwj-footer-box .cwj-toTop div{
+    width:55px;
+    height:55px;
+    position: absolute;
+    left:7px;
+    top:7px;
+    background:#fff;
+    border-radius:50%;
+    text-align:center;
+    line-height: 55px;
+}
+.cwj-footer-box .cwj-toTop div:hover{
+    background: #a7eca2;
+}
+.cwj-footer-box .cwj-toTop div span{
+    position:absolute;
+    left:13px;
+    width:30px;
+    height:18px;
+    background: url(../images/cwj/cwj-toTop.png) no-repeat center ;
+    background-size:contain;
+    animation:myanimate 0.8s ease infinite;
+    animation-direction:alternate;
+}
+@keyframes myanimate {
+    from {top:5px;}
+    to {top:25px;}
+}
+.cwj-footer-box ul{
+    display:flex;
+    justify-content:center;
+    align-content:center;
+}
+.cwj-footer-box ul li{
+    padding:0 65px;
+    text-align: center;
+}
+.cwj-footer-box ul li a{
+    display:block;
+    text-align:center;
+    color:#fff;
+}
+.cwj-footer-box ul li a p{
+    width:30px;
+    height:30px;
+    background:#fff;
+    line-height:30px;
+    border-radius:50%;
+    margin:0 auto 10px auto;
+}
+.copy{
+    color:#fff;
+    margin-top:50px;
+}
+.copy p{
+    display:flex;
+    justify-content: center;
+    line-height:30px;
+}
+/*尾部结束*/

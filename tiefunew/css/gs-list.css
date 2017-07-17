@@ -1,0 +1,154 @@
+body,ul,li,h1,h2,h3,h4,h5,h6,p,input{
+     margin:0;padding:0;
+     list-style: none;
+ }
+a{
+    text-decoration: none;
+}
+img{
+    border:none;
+}
+button,input,a{
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+.gs-tzimg{
+    width:346px;height:79px;
+    margin:0 auto;
+    background:url(../images/gs/gs-tfwenhua.png);
+    margin-top:60px;
+}
+.gs-ztculture{
+    width:1000px;
+    margin:0 auto;
+    padding-top:60px;
+    margin-bottom: 100px;
+}
+.gs-ztculture:after{
+    content:"";
+    display: block;
+    clear:both;
+}
+.gs-left{
+    width:140px;height:275px;
+    border-top:1px solid #999999;
+    border-right:1px solid #999999;
+    float:left;
+}
+.gs-font{
+    line-height:18px;
+    text-align:right;
+    color:#666666;
+    padding-right:20px;
+    margin-top:36px;
+    position:relative;
+    cursor:pointer;
+}
+.gs-font:before{
+    content:"";
+    display:block;
+    background:#999;
+    width:13px;height:13px;
+    border-radius:50%;
+    position:absolute;
+    top:3px;
+    right:-7px;
+    box-sizing: border-box;
+}
+.gs-bcircle:before{
+    background:#e1e1e1;
+    border:3px solid #462327;
+}
+.gs-circle:before{
+    background:#e1e1e1;
+    border:3px solid #462327;
+}
+.gs-font>p{
+    font-size:16px;
+}
+.gs-font>span{
+    font-size:12px;
+}
+.gs-right{
+    float:right;
+}
+.gs-right>a{
+    display:block;
+    width:824px;height:220px;
+    box-sizing: border-box;
+    padding:8px;
+    /*border:2px solid #e1e1e1;*/
+    border-radius: 10px;
+    transition:all 0.5s;
+    margin-bottom:30px;
+}
+.gs-right>a:hover{
+    box-shadow: 0 0 25px 10px #979797;
+}
+.gs-right>a:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.gs-imgbox{
+    float:left;
+    width:200px;height:200px;
+}
+.gs-imgbox>img{
+    display:block;
+    width:200px;height:200px;
+}
+.gs-fontbox{
+    float:left;
+    padding-left:10px;
+    box-sizing: border-box;
+}
+.gs-ftop{
+    width:590px;
+    padding-bottom:10px;
+    border-bottom: 1px solid #462327;
+}
+.gs-ftop:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.gs-titbox{
+    float:left;
+    line-height:20px;
+}
+.gs-ftop>div>p{
+    font-size:24px;
+    color:#462327;
+}
+.gs-ftop>div>span{
+    font-size:12px;
+    color:#959595;
+}
+.gs-dshow{
+    display:block;
+    width:80px;height:28px;
+    line-height:28px;
+    font-size:14px;
+    color:#462327;
+    text-align:center;
+    border-radius:14px;
+    box-sizing:border-box;
+    border:1px solid #462327;
+    background:#e1e1e1;
+    float:right;
+    cursor:pointer;
+    margin-top:10px;
+}
+.gs-date{
+    font-size:14px;
+    color:#959595;
+    margin-top:12px;
+}
+.gs-con{
+    width:590px;
+    line-height:28px;
+    padding-right:15px;
+    box-sizing:border-box;
+    color:#000000;
+    margin-top:8px;
+}

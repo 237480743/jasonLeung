@@ -1,0 +1,148 @@
+body,h1,h2,h3,h4,h5,input,p,ul,span{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+body{
+    background: #f4f4f4;
+}
+a{
+    text-decoration: none;
+    transition: all 0.5s;
+}
+img{
+    border: 0;
+}
+.header{
+   /* width: 960px;*/
+   /* height: 80px;*/
+    /*margin: 0 auto;*/
+    /*border-bottom: 1px solid #999;*/
+}
+.header ul{
+    overflow: hidden;
+}
+.header li{
+    /*width: 100px;*/
+    height: 80px;
+    line-height: 80px;
+    /*float: left;
+    position:relative;*/
+    text-align: center;
+}
+.header li .a{
+    width: 100%;
+    height: 100%;
+    color:#666;
+    font-size: 16px;
+
+}
+.header li .line{
+    width: 80px;
+    height: 1px;
+    position: absolute;
+    left: 10px;
+    bottom: 25px;
+    background: transparent;
+    transition: all 0.3s;
+}
+.header li:hover .a{
+    color: #000;
+}
+.header li:hover .line{
+    /*background: #666;*/
+}
+.contain{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    /*margin-right:20px;*/
+}
+.contain .inner{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contain .inner-two{
+    width: 760px;
+    height: auto;
+}
+.contain .inner .list{
+    flex-shrink: 0;
+    width:300px ;
+    height: 374px;
+    box-sizing: border-box;
+    padding: 20px;
+    background: #fff;
+}
+.contain .inner .list a{
+    display: block;
+}
+.contain .inner .list img{
+    max-width: 100%;
+    height: 260px;
+    display: block;
+    margin-bottom: 14px;
+}
+.contain .inner .list p{
+    height: 60px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000;
+}
+.showpage{
+    width: 760px;
+    margin: 0 auto;
+}
+.showpage h2{
+    text-align: center;
+    font-size: 35px;
+}
+.showpage .info span{
+    font-size: 14px;
+    color: #ccc;
+}
+
+.clearfix::after{
+    display:block;
+    content:"";
+    clear:both;
+}
+
+
+
+header{
+     border-bottom:1px solid #ccc;
+}
+.top{
+    height:78px;
+}
+.logo{
+    width:140px;
+    height:50px;
+    background:url(../images/top_logo.png);
+    margin-top:14px;
+}
+.option{
+    height:78px;
+    width:250px;
+}
+.option a{
+    height:100%;
+    line-height:78px;
+    font-size:14px;
+    color:#008BED;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.com-width{
+    width:960px;
+    margin:0 auto;
+}
