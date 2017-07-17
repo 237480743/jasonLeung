@@ -1,0 +1,1 @@
+<?php defined('IN_PHPCMS') or exit('No permission resources.'); ?><div class="banner banner_s"><img src="<?php echo $CATEGORYS[$catid]['image'];?>" alt=""/></div>

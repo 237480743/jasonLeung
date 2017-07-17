@@ -1,0 +1,100 @@
+{template "content","header"}
+{template "content","banner"}
+<div class="space_hx">&nbsp;</div>
+<div class="scd clearfix">
+    <div class="scd_l">
+        <div class="name">关于驿家<em>/ABOUT</em></div>
+        {pc:content action="category" catid="0"}
+        <ul class="s_nav clearfix">
+            {loop $data $v}
+            <li><a href="{$v['url']}">{$v['catname']}</a></li>
+            {/loop}
+        </ul>
+        {/pc}
+    </div>
+    <!--{pc:content action="lists" catid="9"}-->
+    <!--{$data}-->
+    <!--<div class="banner banner_s"><img src="$data['thumb']" alt=""/></div>-->
+    <!--{/pc}-->
+    <div class="scd_r">
+        <div class="r_name"><span>我要求租</span></div>
+        <div class="r_ctn clearfix">
+            <ul class="rent clearfix">
+                <li class="clearfix">
+                    <span class="title">标题：</span>
+                    <div class="li_r">
+                        <input name="" type="text">
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <span class="title">联系电话：</span>
+                    <div class="li_r">
+                        <input name="" type="text">
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <span class="title">姓名：</span>
+                    <div class="li_r">
+                        <input name="" type="text">
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <span class="title">建筑面积：</span>
+                    <div class="li_r">
+                        <input name="" type="text">
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <span class="title">求租地址：</span>
+                    <div class="li_r">
+                        <input name="" type="text">
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <span class="title">房屋型号：</span>
+                    <div class="li_r">
+                        <select name="">
+                            <option>一房一厅</option>
+                            <option>两房一厅</option>
+                            <option>三房一厅</option>
+                            <option>三房两厅</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <span class="title">缩略图：</span>
+                    <div class="li_r">
+                        <input name="" type="file">
+                        <input name="" type="submit" id="sc" value="上传">
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <span class="title">租金：</span>
+                    <div class="li_r">
+                        <input name="" type="text">
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <span class="title">简介：</span>
+                    <div class="li_r">
+                        <textarea name="" cols="" rows="5"></textarea>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <span class="title">详细信息：</span>
+                    <div class="li_r">
+                        <textarea name="" cols="" rows="10"></textarea>
+                    </div>
+                </li>
+                <li class="clearfix">
+                    <span class="title">&nbsp;</span>
+                    <div class="li_r">
+                        <input name="" type="submit" value="发 送">
+                        <input name="" type="reset" value="重 置">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+{template "content","footer"}

@@ -1,0 +1,37 @@
+{template "content","header"}
+{template "content","banner"}
+<div class="space_hx">&nbsp;</div>
+<div class="scd clearfix">
+    <div class="scd_l">
+        <div class="name">关于驿家<em>/ABOUT</em></div>
+        {pc:content action="category" catid="0"}
+        <ul class="s_nav clearfix">
+            {loop $data $v}
+            <li><a href="{$v['url']}">{$v['catname']}</a></li>
+            {/loop}
+        </ul>
+        {/pc}
+    </div>
+    {pc:content action="lists" catid="14" return="data"}
+    <!--{var_dump($data)}-->
+
+            <div class="banner banner_s"><img src="{$CATEGORYS[image]}" alt=""/></div>
+
+    {/pc}
+    <div class="scd_r">
+        <div class="r_name"><span>联系我们</span></div>
+        <div class="r_ctn clearfix">
+            <h1>深圳市驿家物业</h1>
+            <div class="ct">
+                <p>电话（Tel）：0755-26981750</p>
+                <p>传真（Fax）：0755-26512421</p>
+                <p>公司QQ：568397856</p>
+                <p>公司邮箱：45545787@163.com</p>
+                <p>公司网址：www.yijiawuliuchina.com</p>
+                <p>运营中心：深圳市南山区深南大道100188号新豪方大厦10D.10E</p>
+                <p>生产基地：深圳市保安区沙井街道兴业西路裕达富工业园2栋1-2层</p>
+            </div>
+        </div>
+    </div>
+</div>
+{template "content","footer"}

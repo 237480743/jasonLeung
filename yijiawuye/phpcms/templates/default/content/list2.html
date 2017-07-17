@@ -1,0 +1,124 @@
+{template "content","header"}
+{template "content","banner"}
+<div class="space_hx">&nbsp;</div>
+<div class="scd clearfix">
+    <div class="scd_l">
+        <div class="name">关于驿家<em>/ABOUT</em></div>
+        {pc:content action="category" catid="0"}
+        <ul class="s_nav clearfix">
+            {loop $data $v}
+            <li><a href="{$v['url']}">{$v['catname']}</a></li>
+            {/loop}
+        </ul>
+        {/pc}
+    </div>
+    <!--{pc:content action="lists" catid="9"}-->
+    <!--{$data}-->
+    <!--<div class="banner banner_s"><img src="$data['thumb']" alt=""/></div>-->
+    <!--{/pc}-->
+    <div class="scd_r">
+        <div class="r_name"><span>我要存房</span></div>
+        <div class="r_ctn clearfix">
+            <div class="save">
+                <div class="title">
+                    <span>客户资料</span>
+                    <em>全都必填</em>
+                </div>
+                <ul class="s_a clearfix">
+                    <li class="clearfix">
+                        <span class="tit">客户姓名：</span>
+                        <div class="li_r">
+                            <input name="" type="text">
+                        </div>
+                    </li>
+                    <li class="duan clearfix">
+                        <span class="tit">性别：</span>
+                        <div class="li_r">
+                            <select name="">
+                                <option>男</option>
+                                <option>女</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <span class="tit">手机号码：</span>
+                        <div class="li_r">
+                            <input name="" type="text">
+                        </div>
+                    </li>
+                </ul>
+                <div class="title">
+                    <span>房地产资料</span>
+                    <em>全都必填</em>
+                </div>
+                <ul class="s_a s_b clearfix">
+                    <li class="clearfix">
+                        <span class="tit">房产地址：</span>
+                        <div class="li_r">
+                            <input name="" type="text">
+                            <i>存房为业主、租客，省时、省力、省心，还省钱。</i>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <span class="tit">物业现状：</span>
+                        <div class="li_r">
+                            <select name="">
+                                <option>出租</option>
+                                <option>出租</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <span class="tit">建筑面积：</span>
+                        <div class="li_r">
+                            <input name="" type="text">
+                            <em>/m</em>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <span class="tit">房屋类型：</span>
+                        <div class="li_r">
+                            <select name="">
+                                <option>一室一厅</option>
+                                <option>两室一厅</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <span class="tit">房屋价格：</span>
+                        <div class="li_r">
+                            <input name="" type="text">
+                            <em>元</em>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <span class="tit">家私电器：</span>
+                        <div class="li_r">
+                            <select name="">
+                                <option>电视</option>
+                                <option>热水器</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <span class="tit">装修状况：</span>
+                        <div class="li_r">
+                            <select name="">
+                                <option>经济</option>
+                                <option>豪华</option>
+                            </select>
+                        </div>
+                    </li>
+                    <li class="clearfix">
+                        <span class="tit">&nbsp;</span>
+                        <div class="li_r btn">
+                            <input name="" type="submit" value="提 交">
+                            <input name="" type="reset" value="重 置">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{template "content","footer"}

@@ -1,0 +1,78 @@
+{template "content","header"}
+{template "content","banner"}
+<div class="space_hx">&nbsp;</div>
+<div class="scd clearfix">
+    <div class="scd_l">
+        <div class="name">关于驿家<em>/ABOUT</em></div>
+        {pc:content action="category" catid="0"}
+        <ul class="s_nav clearfix">
+            {loop $data $v}
+            <li><a href="{$v['url']}">{$v['catname']}</a></li>
+            {/loop}
+        </ul>
+        {/pc}
+    </div>
+    <!--{pc:content action="lists" catid="9"}-->
+    <!--{$data}-->
+    <!--<div class="banner banner_s"><img src="$data['thumb']" alt=""/></div>-->
+    <!--{/pc}-->
+    <div class="scd_r">
+        <div class="r_name"><span>人才招聘</span></div>
+        <div class="r_ctn clearfix">
+            <ul class="join clearfix">
+                <li>
+                    <div class="title">财务助理</div>
+                    <div class="des">
+                        <p><b>岗位职责：</b></p>
+                        <p>1、申请票据，购买发票，准备和报送会计报表，协助办理税务报表的申报；</p>
+                        <p>2、现金及银行收付处理，制作记帐凭证，银行对帐，单据审核，开具与保管发票；</p>
+                        <p>3、协助财会文件的准备、归档和保管；</p>
+                        <p>4、固定资产和低值易耗品的登记和管理；</p>
+                        <p>5、负责与银行、税务等部门的对外联络；</p>
+                        <p>6、协助主管完成其他日常事务性工作；</p>
+                        <p>7、其它事宜；</p>
+                    </div>
+                    <div class="space_hx">&nbsp;</div>
+                    <div class="des">
+                        <p><b>任职要求：</b></p>
+                        <p>1、毕业一年以上，有贸易会计公司经验，或者做过会计文员</p>
+                        <p>2、持有会计证</p>
+                        <p>3、男女不限</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="title">财务助理</div>
+                    <div class="des">
+                        <p><b>岗位职责：</b></p>
+                        <p>1、申请票据，购买发票，准备和报送会计报表，协助办理税务报表的申报；</p>
+                        <p>2、现金及银行收付处理，制作记帐凭证，银行对帐，单据审核，开具与保管发票；</p>
+                        <p>3、协助财会文件的准备、归档和保管；</p>
+                        <p>4、固定资产和低值易耗品的登记和管理；</p>
+                        <p>5、负责与银行、税务等部门的对外联络；</p>
+                        <p>6、协助主管完成其他日常事务性工作；</p>
+                        <p>7、其它事宜；</p>
+                    </div>
+                    <div class="space_hx">&nbsp;</div>
+                    <div class="des">
+                        <p><b>任职要求：</b></p>
+                        <p>1、毕业一年以上，有贸易会计公司经验，或者做过会计文员</p>
+                        <p>2、持有会计证</p>
+                        <p>3、男女不限</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="space_hx">&nbsp;</div>
+            <div class="pages">
+                <a href="" class="prev">上一页</a>
+                <a href="" class="now">1</a>
+                <a href="">2</a>
+                <a href="">3</a>
+                <a href="">4</a>
+                <a href="">5</a>
+                <a href="">……</a>
+                <a href="" class="next">下一页</a>
+            </div>
+        </div>
+    </div>
+</div>
+{template "content","footer"}
